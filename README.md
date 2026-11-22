@@ -40,7 +40,7 @@
     <img src="./assets/dock-github.svg" height="52" alt="GitHub" />
   </a>
   <a href="">
-    <img src="./assets/dock-linkedin.svg" height="52" alt="LinkedIn" />
+    <img src="./assets/dock-linkedin.svg" height="52" alt="https://www.linkedin.com/in/byshivamraj/" />
   </a>
   <a href="">
     <img src="./assets/dock-portfolio.svg" height="52" alt="Portfolio" />
