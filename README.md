@@ -46,9 +46,6 @@
     <img src="./assets/dock-portfolio.svg" height="52" alt="Portfolio" />
   </a>
   <a href="">
-    <img src="./assets/dock-instagram.svg" height="52" alt="Instagram" />
-  </a>
-  <a href="">
     <img src="./assets/dock-discord.svg" height="52" alt="Discord" />
   </a>
   <a href="">
