@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 110" width="100%" role="img" aria-label="Animated Profile Dock">
+  <defs>
+    <style>
+      .d1 { transform-origin: 110px 62px; animation: dockWave 3.2s ease-in-out 0.0s infinite; }
+      .d2 { transform-origin: 195px 62px; animation: dockWave 3.2s ease-in-out 0.2s infinite; }
+      .d3 { transform-origin: 280px 62px; animation: dockWave 3.2s ease-in-out 0.4s infinite; }
+      .d4 { transform-origin: 365px 62px; animation: dockWave 3.2s ease-in-out 0.6s infinite; }
+      .d5 { transform-origin: 450px 62px; animation: dockWave 3.2s ease-in-out 0.8s infinite; }
+      .d6 { transform-origin: 535px 62px; animation: dockWave 3.2s ease-in-out 1.0s infinite; }
+      .d7 { transform-origin: 620px 62px; animation: dockWave 3.2s ease-in-out 1.2s infinite; }
+      .d8 { transform-origin: 705px 62px; animation: dockWave 3.2s ease-in-out 1.4s infinite; }
+
+      @keyframes dockWave {
+        0%, 60%, 100% { transform: translateY(0px) scale(1); }
+        25%           { transform: translateY(-10px) scale(1.18); }
+      }
+    </style>
+
+    <linearGradient id="dock-glass" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="50%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="dock-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#00FF9D" stop-opacity="0.4" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect x="45" y="28" width="730" height="68" rx="34" fill="url(#dock-glass)" stroke="url(#dock-border)" stroke-width="1.5" />
+
+  
+  <g font-family="&#39;Segoe UI Emoji&#39;, &#39;Apple Color Emoji&#39;, sans-serif" font-size="24" text-anchor="middle">
+    <g class="d1">
+      <circle cx="110" cy="62" r="22" fill="#111827" stroke="#38BDF8" stroke-opacity="0.5" stroke-width="1.2" />
+      <text x="110" y="70">🐙</text>
+    </g>
+    <g class="d2">
+      <circle cx="195" cy="62" r="22" fill="#111827" stroke="#0A66C2" stroke-opacity="0.7" stroke-width="1.2" />
+      <text x="195" y="70">💼</text>
+    </g>
+    <g class="d3">
+      <circle cx="280" cy="62" r="22" fill="#111827" stroke="#A855F7" stroke-opacity="0.6" stroke-width="1.2" />
+      <text x="280" y="70">🌐</text>
+    </g>
+    <g class="d4">
+      <circle cx="365" cy="62" r="22" fill="#111827" stroke="#EC4899" stroke-opacity="0.6" stroke-width="1.2" />
+      <text x="365" y="70">📸</text>
+    </g>
+    <g class="d5">
+      <circle cx="450" cy="62" r="22" fill="#111827" stroke="#5865F2" stroke-opacity="0.7" stroke-width="1.2" />
+      <text x="450" y="70">💬</text>
+    </g>
+    <g class="d6">
+      <circle cx="535" cy="62" r="22" fill="#111827" stroke="#E2E8F0" stroke-opacity="0.5" stroke-width="1.2" />
+      <text x="535" y="70">𝕏</text>
+    </g>
+    <g class="d7">
+      <circle cx="620" cy="62" r="22" fill="#111827" stroke="#F59E0B" stroke-opacity="0.7" stroke-width="1.2" />
+      <text x="620" y="70">⚡</text>
+    </g>
+    <g class="d8">
+      <circle cx="705" cy="62" r="22" fill="#111827" stroke="#00FF9D" stroke-opacity="0.6" stroke-width="1.2" />
+      <text x="705" y="70">✉️</text>
+    </g>
+  </g>
+</svg>
