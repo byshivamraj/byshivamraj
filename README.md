@@ -1,69 +1,78 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Shivam Raj — AI/ML Developer | Security Tooling | Full-Stack Builder" />
+  <img src="./assets/hero.svg" width="100%" alt="Shivam Raj — Coder | Acharya Institute of Technology | B.Tech CSE (AI & ML)" />
 </p>
 
 <br />
 
-### About Me
-
-I'm **Shivam Raj**, an undergraduate **B.Tech CSE (AI & ML)** student at **Acharya Institute of Technology, Bengaluru**. I focus on building practical AI systems, automated security tooling, and full-stack web applications—moving fast from architecture to working deployments.
-
-- **Currently building:** **Diablo** (a local Windows autonomous desktop AI assistant) and **Aegis-Zero** (an automated vulnerability scanner and auto-remediation tool).
-- **Focus areas:** Applied AI/ML, cybersecurity automation, and clean full-stack engineering.
-
----
-
-### Selected Projects
-
-| Project | Overview | Stack | Links |
-| :--- | :--- | :--- | :--- |
-| **Aegis-Zero** *(Team Kernel Core)* | Automated security scanner and auto-remediation tool designed to detect vulnerabilities in AI-generated code and apply verified patches. | Python, FastAPI, HTML/JS | [Repo]([Add Repo Link]) • [Demo]([Add Demo Link]) |
-| **Diablo** | Local Windows autonomous desktop AI assistant featuring a PyWebView shell, Three.js 3D wireframe UI, Win32 cursor control, and Vision ReAct loops. | Python, Three.js, PyWebView, Win32 | [Repo]([Add Repo Link]) |
-| **Meta Beats** *(Earth Jukebox)* | NASA Space Apps Hackathon data sonification web app with a 3-tier architecture, interactive WebGL globe, and Web Audio API synthesis. | JavaScript, Node.js, WebGL, Vercel | [Repo]([Add Repo Link]) • [Live]([Add Live Link]) |
-
----
-
-### Technical Stack
-
-- **Languages:** `Python` · `C` · `C++` · `Java` · `JavaScript` · `SQL` · `HTML5` · `CSS3`
-- **Frameworks & Web:** `FastAPI` · `Node.js` · `Three.js` · `WebGL` · `WordPress`
-- **Security & Systems:** `Kali Linux` · `BlackArch Linux` · `Oracle VirtualBox` · `PyInstaller`
-- **Tools & Deployment:** `Git` · `GitHub` · `Vercel` · `VS Code`
-
----
-
-### GitHub Activity
-
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=byshivamraj&bg_color=10070C&color=E5B5C7&line=C77B9B&point=F8F0F3&area=true&area_color=451126&hide_border=true" width="100%" alt="Shivam Raj GitHub Contribution Graph" />
+  <img src="./assets/about-card.svg" width="100%" alt="About Shivam Raj" />
 </p>
 
+<br />
+
+<h3 align="center">Core Stack</h3>
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=byshivamraj&show_icons=true&bg_color=190B12&title_color=F8F0F3&text_color=E5B5C7&icon_color=C77B9B&border_color=451126&border_radius=12" height="165" alt="Shivam Raj GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=byshivamraj&layout=compact&bg_color=190B12&title_color=F8F0F3&text_color=E5B5C7&border_color=451126&border_radius=12" height="165" alt="Shivam Raj Top Languages" />
+  <img src="https://img.shields.io/badge/Python-141417?style=for-the-badge&logo=python&logoColor=E4E4E7" alt="Python" />
+  <img src="https://img.shields.io/badge/C-141417?style=for-the-badge&logo=c&logoColor=E4E4E7" alt="C" />
+  <img src="https://img.shields.io/badge/C++-141417?style=for-the-badge&logo=cplusplus&logoColor=E4E4E7" alt="C++" />
+  <img src="https://img.shields.io/badge/HTML5-141417?style=for-the-badge&logo=html5&logoColor=E4E4E7" alt="HTML5" />
+  <img src="https://img.shields.io/badge/JavaScript-141417?style=for-the-badge&logo=javascript&logoColor=E4E4E7" alt="JavaScript" />
 </p>
+
+<br />
 
 ---
 
-### Connect & Profiles
+<h3 align="center">Latest Projects</h3>
 
 <p align="center">
-  <a href="https://github.com/byshivamraj">
-    <img src="https://img.shields.io/badge/GitHub-byshivamraj-451126?style=for-the-badge&logo=github&logoColor=F8F0F3" alt="GitHub" />
+  <a href="https://github.com/byshivamraj/YOUR_REPO_1">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=byshivamraj&repo=YOUR_REPO_1&bg_color=09090B&title_color=F4F4F5&text_color=A1A1AA&icon_color=E4E4E7&border_color=27272A&border_radius=14" alt="Latest Project 1" />
   </a>
-  <a href="[Add Portfolio Link]">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-701A3D?style=for-the-badge&logo=vercel&logoColor=F8F0F3" alt="Portfolio" />
-  </a>
-  <a href="[Add LinkedIn Link]">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-451126?style=for-the-badge&logo=linkedin&logoColor=F8F0F3" alt="LinkedIn" />
-  </a>
-  <a href="[Add LeetCode Link]">
-    <img src="https://img.shields.io/badge/LeetCode-Profile-701A3D?style=for-the-badge&logo=leetcode&logoColor=F8F0F3" alt="LeetCode" />
-  </a>
-  <a href="mailto:[Add Email Address]">
-    <img src="https://img.shields.io/badge/Email-Contact-451126?style=for-the-badge&logo=gmail&logoColor=F8F0F3" alt="Email" />
+  <a href="https://github.com/byshivamraj/YOUR_REPO_2">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=byshivamraj&repo=YOUR_REPO_2&bg_color=09090B&title_color=F4F4F5&text_color=A1A1AA&icon_color=E4E4E7&border_color=27272A&border_radius=14" alt="Latest Project 2" />
   </a>
 </p>
+
+<br />
+
+---
+
+<h3 align="center">Connect</h3>
+
+<!-- Apple-Style Dock (Replace [Add ... Link] with your URLs) -->
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" style="border:none;">
+        <a href="https://github.com/byshivamraj">
+          <img src="https://img.shields.io/badge/GitHub-18181B?style=for-the-badge&logo=github&logoColor=F4F4F5" alt="GitHub" />
+        </a>
+      </td>
+      <td align="center" style="border:none;">
+        <a href="[Add LinkedIn Link]">
+          <img src="https://img.shields.io/badge/LinkedIn-18181B?style=for-the-badge&logo=linkedin&logoColor=F4F4F5" alt="LinkedIn" />
+        </a>
+      </td>
+      <td align="center" style="border:none;">
+        <a href="[Add Portfolio Link]">
+          <img src="https://img.shields.io/badge/Portfolio-18181B?style=for-the-badge&logo=vercel&logoColor=F4F4F5" alt="Portfolio" />
+        </a>
+      </td>
+      <td align="center" style="border:none;">
+        <a href="[Add LeetCode Link]">
+          <img src="https://img.shields.io/badge/LeetCode-18181B?style=for-the-badge&logo=leetcode&logoColor=F4F4F5" alt="LeetCode" />
+        </a>
+      </td>
+      <td align="center" style="border:none;">
+        <a href="mailto:[Add Email Address]">
+          <img src="https://img.shields.io/badge/Email-18181B?style=for-the-badge&logo=gmail&logoColor=F4F4F5" alt="Email" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 <br />
 
