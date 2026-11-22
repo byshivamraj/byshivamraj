@@ -5,74 +5,52 @@
 <br />
 
 <p align="center">
-  <img src="./assets/about-card.svg" width="100%" alt="About Shivam Raj" />
+  <img src="./assets/about-card.svg" width="100%" alt="More About Shivam Raj" />
 </p>
 
 <br />
-
-<h3 align="center">Core Stack</h3>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-141417?style=for-the-badge&logo=python&logoColor=E4E4E7" alt="Python" />
-  <img src="https://img.shields.io/badge/C-141417?style=for-the-badge&logo=c&logoColor=E4E4E7" alt="C" />
-  <img src="https://img.shields.io/badge/C++-141417?style=for-the-badge&logo=cplusplus&logoColor=E4E4E7" alt="C++" />
-  <img src="https://img.shields.io/badge/HTML5-141417?style=for-the-badge&logo=html5&logoColor=E4E4E7" alt="HTML5" />
-  <img src="https://img.shields.io/badge/JavaScript-141417?style=for-the-badge&logo=javascript&logoColor=E4E4E7" alt="JavaScript" />
-</p>
-
-<br />
-
----
 
 <h3 align="center">Latest Projects</h3>
 
 <p align="center">
-  <a href="https://github.com/byshivamraj/YOUR_REPO_1">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=byshivamraj&repo=YOUR_REPO_1&bg_color=09090B&title_color=F4F4F5&text_color=A1A1AA&icon_color=E4E4E7&border_color=27272A&border_radius=14" alt="Latest Project 1" />
-  </a>
-  <a href="https://github.com/byshivamraj/YOUR_REPO_2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=byshivamraj&repo=YOUR_REPO_2&bg_color=09090B&title_color=F4F4F5&text_color=A1A1AA&icon_color=E4E4E7&border_color=27272A&border_radius=14" alt="Latest Project 2" />
-  </a>
+  <img src="./assets/projects.svg" width="100%" alt="Latest 4 Projects" />
 </p>
 
 <br />
 
----
+<h3 align="center">Connect With Me</h3>
 
-<h3 align="center">Connect</h3>
+<p align="center">
+  <img src="./assets/dock.svg" width="85%" alt="Animated Dock" />
+</p>
 
-<!-- Apple-Style Dock (Replace [Add ... Link] with your URLs) -->
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" style="border:none;">
-        <a href="https://github.com/byshivamraj">
-          <img src="https://img.shields.io/badge/GitHub-18181B?style=for-the-badge&logo=github&logoColor=F4F4F5" alt="GitHub" />
-        </a>
-      </td>
-      <td align="center" style="border:none;">
-        <a href="[Add LinkedIn Link]">
-          <img src="https://img.shields.io/badge/LinkedIn-18181B?style=for-the-badge&logo=linkedin&logoColor=F4F4F5" alt="LinkedIn" />
-        </a>
-      </td>
-      <td align="center" style="border:none;">
-        <a href="[Add Portfolio Link]">
-          <img src="https://img.shields.io/badge/Portfolio-18181B?style=for-the-badge&logo=vercel&logoColor=F4F4F5" alt="Portfolio" />
-        </a>
-      </td>
-      <td align="center" style="border:none;">
-        <a href="[Add LeetCode Link]">
-          <img src="https://img.shields.io/badge/LeetCode-18181B?style=for-the-badge&logo=leetcode&logoColor=F4F4F5" alt="LeetCode" />
-        </a>
-      </td>
-      <td align="center" style="border:none;">
-        <a href="mailto:[Add Email Address]">
-          <img src="https://img.shields.io/badge/Email-18181B?style=for-the-badge&logo=gmail&logoColor=F4F4F5" alt="Email" />
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
+<!-- Paste your profile links inside the quotes ("") below -->
+<p align="center">
+  <a href="https://github.com/byshivamraj">
+    <img src="https://img.shields.io/badge/🐙_GitHub-0F172A?style=for-the-badge&logo=github&logoColor=00F0FF" alt="GitHub" />
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/badge/💼_LinkedIn-0F172A?style=for-the-badge&logo=linkedin&logoColor=38BDF8" alt="LinkedIn" />
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/badge/🌐_Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=A855F7" alt="Portfolio" />
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/badge/📸_Instagram-0F172A?style=for-the-badge&logo=instagram&logoColor=EC4899" alt="Instagram" />
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/badge/💬_Discord-0F172A?style=for-the-badge&logo=discord&logoColor=818CF8" alt="Discord" />
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/badge/𝕏_Twitter-0F172A?style=for-the-badge&logo=x&logoColor=F8FAFC" alt="X" />
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/badge/⚡_LeetCode-0F172A?style=for-the-badge&logo=leetcode&logoColor=F59E0B" alt="LeetCode" />
+  </a>
+  <a href="mailto:">
+    <img src="https://img.shields.io/badge/✉️_Email-0F172A?style=for-the-badge&logo=gmail&logoColor=00FF9D" alt="Email" />
+  </a>
+</p>
 
 <br />
 
