@@ -1,59 +1,72 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Shivam Raj — AI/ML & Cybersecurity Builder" width="100%" />
+  <img src="./assets/shivam-hero.svg" width="100%" alt="Shivam Raj — AI/ML Developer | Security Tooling | Full-Stack Builder" />
 </p>
 
-### `> whoami`
+<br />
 
-I'm **Shivam Raj**, a B.Tech Computer Science & Engineering (AI & ML) student at **Acharya Institute of Technology, Bengaluru**. I build autonomous AI assistants, automated security scanners, and interactive web applications—combining software engineering with offensive security exploration.
+### About Me
 
-- **Currently building:** **Diablo** (autonomous Windows desktop AI assistant) & **Aegis-Zero** (automated code vulnerability scanner and patcher)
-- **Exploring:** AI/ML systems, penetration testing (Kali & BlackArch Linux), and scalable backend architectures
-- **Portal:** [aitaimlh.infy.click](https://aitaimlh.infy.click)
+I'm **Shivam Raj**, an undergraduate **B.Tech CSE (AI & ML)** student at **Acharya Institute of Technology, Bengaluru**. I focus on building practical AI systems, automated security tooling, and full-stack web applications—moving fast from architecture to working deployments.
 
----
-
-### `> featured_projects`
-
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
-| **Diablo** | Local autonomous Windows desktop AI assistant featuring a 3D wireframe UI, Win32 hardware cursor control, Gemini Vision ReAct loops, and a mobile remote deck. | `Python` `PyWebView` `Three.js` `Gemini API` |
-| **Aegis-Zero (Kernel Core)** | Automated security scanner and auto-remediation platform built for *The Big Hack 2.0* to detect vulnerabilities in code, run sandbox checks, and apply one-click patches. | `Python` `FastAPI` `HTML/JS` `PyInstaller` |
-| **Meta Beats / Earth Jukebox** | Data sonification web application built with a 6-member team for a **NASA Hackathon**, translating environmental datasets into interactive audio experiences. | `JavaScript` `Node.js` `HTML/CSS` `Vercel` |
-| **AIT AIML Academic Portal** | Personal academic resource hub and portfolio integrating Notion workspaces for syllabi, notes, and interactive HTML study tools. | `WordPress` `HTML/CSS/JS` `Notion` |
+- **Currently building:** **Diablo** (a local Windows autonomous desktop AI assistant) and **Aegis-Zero** (an automated vulnerability scanner and auto-remediation tool).
+- **Focus areas:** Applied AI/ML, cybersecurity automation, and clean full-stack engineering.
 
 ---
 
-### `> tech_stack`
+### Selected Projects
 
-**Languages**  
-`Python` · `C` · `C++` · `Java` · `JavaScript` · `HTML5` · `CSS3` · `SQL`
-
-**Frameworks & Tools**  
-`FastAPI` · `Three.js` · `Git & GitHub` · `Vercel` · `VS Code` · `WordPress`
-
-**Cybersecurity & Environments**  
-`Kali Linux` · `BlackArch Linux` · `Oracle VirtualBox` · `TryHackMe`
+| Project | Overview | Stack | Links |
+| :--- | :--- | :--- | :--- |
+| **Aegis-Zero** *(Team Kernel Core)* | Automated security scanner and auto-remediation tool designed to detect vulnerabilities in AI-generated code and apply verified patches. | Python, FastAPI, HTML/JS | [Repo]([Add Repo Link]) • [Demo]([Add Demo Link]) |
+| **Diablo** | Local Windows autonomous desktop AI assistant featuring a PyWebView shell, Three.js 3D wireframe UI, Win32 cursor control, and Vision ReAct loops. | Python, Three.js, PyWebView, Win32 | [Repo]([Add Repo Link]) |
+| **Meta Beats** *(Earth Jukebox)* | NASA Space Apps Hackathon data sonification web app with a 3-tier architecture, interactive WebGL globe, and Web Audio API synthesis. | JavaScript, Node.js, WebGL, Vercel | [Repo]([Add Repo Link]) • [Live]([Add Live Link]) |
 
 ---
 
-### `> github_activity`
+### Technical Stack
+
+- **Languages:** `Python` · `C` · `C++` · `Java` · `JavaScript` · `SQL` · `HTML5` · `CSS3`
+- **Frameworks & Web:** `FastAPI` · `Node.js` · `Three.js` · `WebGL` · `WordPress`
+- **Security & Systems:** `Kali Linux` · `BlackArch Linux` · `Oracle VirtualBox` · `PyInstaller`
+- **Tools & Deployment:** `Git` · `GitHub` · `Vercel` · `VS Code`
+
+---
+
+### GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=byshivamraj&show_icons=true&bg_color=07070D&title_color=00F0FF&text_color=CBD5E1&icon_color=A855F7&border_color=A855F7&border_radius=10" alt="Shivam Raj GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=byshivamraj&layout=compact&bg_color=07070D&title_color=00F0FF&text_color=CBD5E1&border_color=A855F7&border_radius=10" alt="Top Languages" height="165" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=byshivamraj&bg_color=10070C&color=E5B5C7&line=C77B9B&point=F8F0F3&area=true&area_color=451126&hide_border=true" width="100%" alt="Shivam Raj GitHub Contribution Graph" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=byshivamraj&show_icons=true&bg_color=190B12&title_color=F8F0F3&text_color=E5B5C7&icon_color=C77B9B&border_color=451126&border_radius=12" height="165" alt="Shivam Raj GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=byshivamraj&layout=compact&bg_color=190B12&title_color=F8F0F3&text_color=E5B5C7&border_color=451126&border_radius=12" height="165" alt="Shivam Raj Top Languages" />
 </p>
 
 ---
 
-### `> connect`
-
-<p align="left">
-  <a href="https://github.com/byshivamraj"><img src="https://img.shields.io/badge/GitHub-byshivamraj-07070D?style=for-the-badge&logo=github&logoColor=00F0FF&labelColor=131124" alt="GitHub" /></a>
-  <a href="https://aitaimlh.infy.click"><img src="https://img.shields.io/badge/Portfolio-aitaimlh.infy.click-07070D?style=for-the-badge&logo=googlechrome&logoColor=A855F7&labelColor=131124" alt="Portfolio" /></a>
-</p>
-
-<br/>
+### Connect & Profiles
 
 <p align="center">
-  <img src="./assets/footer.svg" alt="Footer" width="100%" />
+  <a href="https://github.com/byshivamraj">
+    <img src="https://img.shields.io/badge/GitHub-byshivamraj-451126?style=for-the-badge&logo=github&logoColor=F8F0F3" alt="GitHub" />
+  </a>
+  <a href="[Add Portfolio Link]">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-701A3D?style=for-the-badge&logo=vercel&logoColor=F8F0F3" alt="Portfolio" />
+  </a>
+  <a href="[Add LinkedIn Link]">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-451126?style=for-the-badge&logo=linkedin&logoColor=F8F0F3" alt="LinkedIn" />
+  </a>
+  <a href="[Add LeetCode Link]">
+    <img src="https://img.shields.io/badge/LeetCode-Profile-701A3D?style=for-the-badge&logo=leetcode&logoColor=F8F0F3" alt="LeetCode" />
+  </a>
+  <a href="mailto:[Add Email Address]">
+    <img src="https://img.shields.io/badge/Email-Contact-451126?style=for-the-badge&logo=gmail&logoColor=F8F0F3" alt="Email" />
+  </a>
+</p>
+
+<br />
+
+<p align="center">
+  <img src="./assets/shivam-footer.svg" width="100%" alt="Shivam Raj Footer" />
 </p>
