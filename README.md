@@ -18,10 +18,10 @@
   <a href="YOUR_LINK_1">
     <img src="./assets/p1.svg?v=3" width="360" alt="Latest Project" />
   </a>
-  <a href="YOUR_LINK_2">
+  <a href="https://kernel-core.vercel.app/">
     <img src="./assets/p2.svg?v=3" width="360" alt="Working Project" />
   </a>
-  <a href="YOUR_LINK_3">
+  <a href="https://sound-sonification-nasa-by-meta-bea.vercel.app/">
     <img src="./assets/p3.svg?v=3" width="360" alt="Old Project 1" />
   </a>
   <a href="https://github.com/byshivamraj/SOUND-SONIFICATION-NASA-BY-META-BEATS">
