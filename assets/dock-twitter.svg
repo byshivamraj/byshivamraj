@@ -1,19 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 56" width="148" height="56" role="img" aria-label="Twitter">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 52" width="138" height="52" role="img" aria-label="Twitter">
   <defs>
     <style>
-      .pill { transform-origin: 74px 32px; animation: dockBounce 3.2s ease-in-out 1.0s infinite; }
-      @keyframes dockBounce {
-        0%, 60%, 100% { transform: translateY(0px) scale(1); }
-        25% { transform: translateY(-6px) scale(1.05); }
+      .btn { animation: floatBtn 2.8s ease-in-out 0.8s infinite alternate; }
+      @keyframes floatBtn {
+        0%   { transform: translateY(2px); }
+        100% { transform: translateY(-3px); }
       }
     </style>
-    <linearGradient id="dbg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F172A" />
-      <stop offset="100%" stop-color="#1E293B" />
-    </linearGradient>
   </defs>
-  <g class="pill">
-    <rect x="6" y="10" width="136" height="40" rx="20" fill="url(#dbg)" stroke="#E2E8F0" stroke-opacity="0.75" stroke-width="1.5" />
-    <text x="74" y="35" text-anchor="middle" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Segoe UI Emoji', sans-serif" font-size="14" font-weight="600">𝕏  Twitter</text>
+  <g class="btn">
+    <rect x="4" y="8" width="130" height="36" rx="18" fill="#0F172A" stroke="#E2E8F0" stroke-width="1.6" />
+    <text x="69" y="31" text-anchor="middle" fill="#F8FAFC" font-family="'Trebuchet MS', 'Segoe UI Emoji', sans-serif" font-size="13.5" font-weight="700">𝕏  Twitter</text>
   </g>
 </svg>
