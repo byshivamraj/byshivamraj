@@ -10,45 +10,55 @@
 
 <br />
 
-<h3 align="center">Latest Projects</h3>
+<h3 align="center">Projects</h3>
 
+<!-- Paste your GitHub repository links inside href="" below -->
 <p align="center">
-  <img src="./assets/projects.svg" width="100%" alt="Latest 4 Projects" />
+  <a href="">
+    <img src="./assets/p1.svg" width="48%" alt="Latest Project" />
+  </a>
+  <a href="">
+    <img src="./assets/p2.svg" width="48%" alt="Working Project" />
+  </a>
+</p>
+<p align="center">
+  <a href="">
+    <img src="./assets/p3.svg" width="48%" alt="Old Project 1" />
+  </a>
+  <a href="">
+    <img src="./assets/p4.svg" width="48%" alt="Old Project 2" />
+  </a>
 </p>
 
 <br />
 
 <h3 align="center">Connect With Me</h3>
 
-<p align="center">
-  <img src="./assets/dock.svg" width="85%" alt="Animated Dock" />
-</p>
-
-<!-- Paste your profile links inside the quotes ("") below -->
+<!-- All-in-One Animated Dock: Paste your links inside href="" below -->
 <p align="center">
   <a href="https://github.com/byshivamraj">
-    <img src="https://img.shields.io/badge/🐙_GitHub-0F172A?style=for-the-badge&logo=github&logoColor=00F0FF" alt="GitHub" />
+    <img src="./assets/dock-github.svg" height="52" alt="GitHub" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/badge/💼_LinkedIn-0F172A?style=for-the-badge&logo=linkedin&logoColor=38BDF8" alt="LinkedIn" />
+    <img src="./assets/dock-linkedin.svg" height="52" alt="LinkedIn" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/badge/🌐_Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=A855F7" alt="Portfolio" />
+    <img src="./assets/dock-portfolio.svg" height="52" alt="Portfolio" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/badge/📸_Instagram-0F172A?style=for-the-badge&logo=instagram&logoColor=EC4899" alt="Instagram" />
+    <img src="./assets/dock-instagram.svg" height="52" alt="Instagram" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/badge/💬_Discord-0F172A?style=for-the-badge&logo=discord&logoColor=818CF8" alt="Discord" />
+    <img src="./assets/dock-discord.svg" height="52" alt="Discord" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/badge/𝕏_Twitter-0F172A?style=for-the-badge&logo=x&logoColor=F8FAFC" alt="X" />
+    <img src="./assets/dock-twitter.svg" height="52" alt="Twitter" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/badge/⚡_LeetCode-0F172A?style=for-the-badge&logo=leetcode&logoColor=F59E0B" alt="LeetCode" />
+    <img src="./assets/dock-leetcode.svg" height="52" alt="LeetCode" />
   </a>
   <a href="mailto:">
-    <img src="https://img.shields.io/badge/✉️_Email-0F172A?style=for-the-badge&logo=gmail&logoColor=00FF9D" alt="Email" />
+    <img src="./assets/dock-email.svg" height="52" alt="Email" />
   </a>
 </p>
 
