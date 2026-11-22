@@ -1,78 +1,110 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" role="img" aria-label="Shivam Raj — Coder | Acharya Institute of Technology | B.Tech CSE (AI &amp; ML)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" role="img" aria-label="𝚂𝙷𝙸𝚅𝙰𝙼 𝚁𝙰𝙹 — Coder | Acharya Institute of Technology | B.Tech CSE (AI &amp; ML)">
   <defs>
     <style>
-      .word-1 { animation: blurReveal 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.1s both; }
-      .word-2 { animation: blurReveal 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.35s both; }
-      .word-3 { animation: blurReveal 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.6s both; }
-      .word-4 { animation: blurReveal 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.85s both; }
-
-      @keyframes blurReveal {
-        0% {
-          opacity: 0;
-          filter: blur(10px);
-          transform: translateY(8px);
-        }
-        100% {
-          opacity: 1;
-          filter: blur(0px);
-          transform: translateY(0px);
-        }
+      /* Name Animation on Profile Load + Continuous Neon Pulse */
+      .name-reveal {
+        animation: nameEntrance 1.1s cubic-bezier(0.22, 1, 0.36, 1) forwards,
+                   neonBreathe 3s ease-in-out 1.1s infinite alternate;
+      }
+      @keyframes nameEntrance {
+        0%   { opacity: 0; filter: blur(12px); transform: translateY(14px) scale(0.96); }
+        100% { opacity: 1; filter: blur(0px); transform: translateY(0px) scale(1); }
+      }
+      @keyframes neonBreathe {
+        0%   { filter: drop-shadow(0 0 6px #00F0FF) drop-shadow(0 0 16px #00FF9D); }
+        100% { filter: drop-shadow(0 0 12px #00F0FF) drop-shadow(0 0 28px #00FF9D); }
       }
 
-      @media (prefers-reduced-motion: reduce) {
-        .word-1, .word-2, .word-3, .word-4 {
-          animation: none;
-          opacity: 1;
-          filter: none;
-          transform: none;
-        }
+      /* Staggered Info Reveal */
+      .reveal-1 { animation: slideIn 0.7s ease-out 0.15s both; }
+      .reveal-2 { animation: slideIn 0.7s ease-out 0.55s both; }
+      .reveal-3 { animation: slideIn 0.7s ease-out 0.75s both; }
+      @keyframes slideIn {
+        0%   { opacity: 0; transform: translateX(-16px); }
+        100% { opacity: 1; transform: translateX(0); }
+      }
+
+      /* Outer Border Beam */
+      .border-beam {
+        stroke-dasharray: 220 780;
+        animation: beamRun 5.5s linear infinite;
+      }
+      @keyframes beamRun {
+        0%   { stroke-dashoffset: 1000; }
+        100% { stroke-dashoffset: 0; }
+      }
+
+      /* Pixel Character Animations */
+      .char-bob {
+        animation: charBreathe 3.2s ease-in-out infinite alternate;
+      }
+      @keyframes charBreathe {
+        0%   { transform: translateY(0px); }
+        100% { transform: translateY(-4px); }
+      }
+
+      .eye-blink {
+        transform-origin: 966px 142px;
+        animation: blink 4.8s infinite;
+      }
+      @keyframes blink {
+        0%, 92%, 100% { transform: scaleY(1); }
+        96%           { transform: scaleY(0.1); }
+      }
+
+      .snow-fall-1 { animation: snowDrop 4.5s linear infinite; }
+      .snow-fall-2 { animation: snowDrop 5.5s linear 1.8s infinite; }
+      @keyframes snowDrop {
+        0%   { transform: translateY(-10px); opacity: 0; }
+        15%  { opacity: 0.9; }
+        85%  { opacity: 0.9; }
+        100% { transform: translateY(95px); opacity: 0; }
+      }
+
+      .steam-rise {
+        animation: steamAnim 2.4s ease-in-out infinite;
+      }
+      @keyframes steamAnim {
+        0%   { transform: translateY(4px); opacity: 0; }
+        50%  { opacity: 0.7; }
+        100% { transform: translateY(-10px); opacity: 0; }
+      }
+
+      .code-blink {
+        animation: codePulse 2s ease-in-out infinite alternate;
+      }
+      @keyframes codePulse {
+        0%   { opacity: 0.45; }
+        100% { opacity: 1; }
       }
     </style>
 
     
-    <linearGradient id="hero-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#10070C" />
-      <stop offset="55%" stop-color="#190B12" />
-      <stop offset="100%" stop-color="#2A0B18" />
+    <linearGradient id="bg-night" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811" />
+      <stop offset="55%" stop-color="#0A1424" />
+      <stop offset="100%" stop-color="#0B2230" />
     </linearGradient>
 
     
-    <radialGradient id="glow-1" cx="18%" cy="25%" r="45%">
-      <stop offset="0%" stop-color="#FF2E54" stop-opacity="0.32" />
-      <stop offset="100%" stop-color="#10070C" stop-opacity="0" />
-    </radialGradient>
-    <radialGradient id="glow-2" cx="82%" cy="50%" r="42%">
-      <stop offset="0%" stop-color="#C959DD" stop-opacity="0.28" />
-      <stop offset="55%" stop-color="#701A3D" stop-opacity="0.18" />
-      <stop offset="100%" stop-color="#10070C" stop-opacity="0" />
-    </radialGradient>
-    <radialGradient id="glow-3" cx="55%" cy="85%" r="38%">
-      <stop offset="0%" stop-color="#0894FF" stop-opacity="0.16" />
-      <stop offset="100%" stop-color="#10070C" stop-opacity="0" />
-    </radialGradient>
-
-    
-    <linearGradient id="trail-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#C77B9B" stop-opacity="0" />
-      <stop offset="35%" stop-color="#FF2E54" />
-      <stop offset="70%" stop-color="#E5B5C7" />
-      <stop offset="100%" stop-color="#F8F0F3" />
+    <linearGradient id="neon-cyber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="50%" stop-color="#00FF9D" />
+      <stop offset="100%" stop-color="#38BDF8" />
     </linearGradient>
 
     
-    <linearGradient id="underline-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#701A3D" />
-      <stop offset="50%" stop-color="#C77B9B" />
-      <stop offset="100%" stop-color="#E5B5C7" stop-opacity="0.15" />
-    </linearGradient>
-
-    
-    <pattern id="hero-grid" width="38" height="38" patternUnits="userSpaceOnUse">
-      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#C77B9B" stroke-opacity="0.07" stroke-width="1" />
+    <pattern id="cyber-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#00F0FF" stroke-opacity="0.05" stroke-width="1" />
     </pattern>
 
     
-    <filter id="soft-glow" x="-25%" y="-25%" width="150%" height="150%">
+    <clipPath id="scene-clip">
+      <rect x="824" y="28" width="324" height="264" rx="16" />
+    </clipPath>
+
+    
+    <filter id="neon-glow" x="-25%" y="-25%" width="150%" height="150%">
       <feGaussianBlur stdDeviation="4" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
@@ -82,102 +114,181 @@
   </defs>
 
   
-  <rect x="8" y="8" width="1184" height="324" rx="18" fill="url(#hero-bg)" />
-  <rect x="8" y="8" width="1184" height="324" rx="18" fill="url(#hero-grid)" />
+  <rect x="8" y="8" width="1184" height="304" rx="18" fill="url(#bg-night)" />
+  <rect x="8" y="8" width="1184" height="304" rx="18" fill="url(#cyber-grid)" />
+  <rect x="8" y="8" width="1184" height="304" rx="18" fill="none" stroke="#163047" stroke-width="1.5" />
+  <rect class="border-beam" x="8" y="8" width="1184" height="304" rx="18" fill="none" stroke="url(#neon-cyber)" stroke-width="2.2" stroke-linecap="round" pathLength="1000" filter="url(#neon-glow)" />
 
   
-  <rect x="8" y="8" width="1184" height="324" rx="18" fill="url(#glow-1)">
-    <animate attributeName="opacity" values="0.65;1;0.65" dur="7s" repeatCount="indefinite" />
-  </rect>
-  <rect x="8" y="8" width="1184" height="324" rx="18" fill="url(#glow-2)">
-    <animate attributeName="opacity" values="0.9;0.55;0.9" dur="8s" repeatCount="indefinite" />
-  </rect>
-  <rect x="8" y="8" width="1184" height="324" rx="18" fill="url(#glow-3)">
-    <animate attributeName="opacity" values="0.5;0.95;0.5" dur="9s" repeatCount="indefinite" />
-  </rect>
-
-  
-  <rect x="8" y="8" width="1184" height="324" rx="18" fill="none" stroke="#701A3D" stroke-opacity="0.5" stroke-width="1.5" />
-
-  
-  <rect x="8" y="8" width="1184" height="324" rx="18" fill="none" stroke="url(#trail-grad)" stroke-width="2.5" stroke-linecap="round" pathLength="1000" stroke-dasharray="140 860" filter="url(#soft-glow)">
-    <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="5.5s" repeatCount="indefinite" />
-  </rect>
-
-  
-  <g font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif">
+  <g>
     
-    <g class="word-1">
-      <rect x="64" y="56" width="96" height="28" rx="14" fill="#451126" stroke="#C77B9B" stroke-opacity="0.45" stroke-width="1" />
-      <circle cx="80" cy="70" r="3.5" fill="#FF2E54" filter="url(#soft-glow)">
-        <animate attributeName="opacity" values="1;0.35;1" dur="2.2s" repeatCount="indefinite" />
-      </circle>
-      <text x="92" y="74.5" fill="#F8F0F3" font-size="12" font-weight="600" letter-spacing="2.2">CODER</text>
+    <g class="reveal-1">
+      <rect x="64" y="48" width="112" height="28" rx="14" fill="#071D26" stroke="#00FF9D" stroke-opacity="0.55" stroke-width="1" />
+      <circle cx="82" cy="62" r="3.5" fill="#00FF9D" filter="url(#neon-glow)" />
+      <text x="96" y="66.5" fill="#E6FFFA" font-family="&#39;Consolas&#39;, &#39;Courier New&#39;, monospace" font-size="12.5" font-weight="700" letter-spacing="2.8">CODER</text>
     </g>
 
     
-    <text x="64" y="156" fill="#F8F0F3" font-size="62" font-weight="800" letter-spacing="2.5">
-      <tspan class="word-1">SHIVAM</tspan>
-      <tspan class="word-2" dx="14" fill="#E5B5C7">RAJ</tspan>
+    <text class="name-reveal" x="62" y="156" fill="#F0FDFA" stroke="#00F0FF" stroke-opacity="0.55" stroke-width="1" font-family="&#39;Segoe UI Symbol&#39;, &#39;Cambria Math&#39;, &#39;Consolas&#39;, monospace" font-size="60" font-weight="700" letter-spacing="3">
+      𝚂𝙷𝙸𝚅𝙰𝙼 𝚁𝙰𝙹
     </text>
 
     
-    <rect x="64" y="176" width="330" height="3.5" rx="2" fill="url(#underline-grad)" filter="url(#soft-glow)">
-      <animate attributeName="width" values="290;370;290" dur="5.5s" repeatCount="indefinite" />
-    </rect>
+    <rect class="reveal-2" x="64" y="178" width="380" height="3" rx="1.5" fill="url(#neon-cyber)" filter="url(#neon-glow)" />
 
     
-    <text x="64" y="222" fill="#F8F0F3" font-size="20" font-weight="600" letter-spacing="0.4" class="word-3">
+    <text class="reveal-2" x="64" y="224" fill="#E2E8F0" font-family="&#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="0.6">
       Acharya Institute of Technology
     </text>
-    <text x="64" y="254" fill="#C77B9B" font-size="16" font-weight="500" letter-spacing="1.2" class="word-4">
+
+    
+    <text class="reveal-3" x="64" y="258" fill="#00FF9D" font-family="&#39;Consolas&#39;, &#39;Courier New&#39;, monospace" font-size="16" font-weight="700" letter-spacing="2.2">
       B.TECH CSE (AI &amp; ML)
     </text>
   </g>
 
   
-  <g transform="translate(855, 68)">
+  <g clip-path="url(#scene-clip)">
     
-    <rect x="-4" y="-4" width="268" height="204" rx="16" fill="none" stroke="#C959DD" stroke-opacity="0.35" stroke-width="4" filter="url(#soft-glow)">
-      <animate attributeName="stroke" values="#0894FF;#C959DD;#FF2E54;#FF9004;#0894FF" dur="8s" repeatCount="indefinite" />
-    </rect>
+    <rect x="824" y="28" width="324" height="264" fill="#1C2742" />
 
     
-    <rect x="0" y="0" width="260" height="196" rx="14" fill="#10070C" fill-opacity="0.88" stroke="#701A3D" stroke-width="1.2" />
-
+    <rect x="824" y="28" width="118" height="128" fill="#121E36" />
+    <rect x="866" y="28" width="6" height="128" fill="#2A3B5E" />
+    <rect x="936" y="28" width="8" height="128" fill="#2A3B5E" />
     
-    <circle cx="130" cy="96" r="56" fill="none" stroke="#C77B9B" stroke-opacity="0.18" stroke-width="1" stroke-dasharray="4 6" />
-    <ellipse cx="130" cy="96" rx="78" ry="30" fill="none" stroke="#E5B5C7" stroke-opacity="0.22" stroke-width="1" transform="rotate(-18 130 96)" />
-
+    <rect x="836" y="88" width="22" height="68" fill="#1E2F50" />
+    <rect x="878" y="72" width="28" height="84" fill="#1E2F50" />
+    <rect x="884" y="82" width="4" height="4" fill="#7DD3FC" />
+    <rect x="894" y="82" width="4" height="4" fill="#7DD3FC" />
+    <rect x="884" y="96" width="4" height="4" fill="#7DD3FC" />
     
-    <g transform="translate(198, 138) scale(0.65)" fill="none" stroke="#E5B5C7" stroke-linecap="round" stroke-width="3">
-      <path d="M51.883 26.495c-7.277-4.124-18.08-7.004-26.519-7.425-2.357-.118-4.407-.244-6.364 1.06M59.642 51c-10.47-7.25-26.594-13.426-39.514-15.664-3.61-.625-6.744-1.202-9.991.263" />
+    <g class="snow-fall-1" fill="#E0F2FE">
+      <rect x="838" y="38" width="4" height="4" />
+      <rect x="888" y="44" width="4" height="4" />
+      <rect x="918" y="36" width="4" height="4" />
+    </g>
+    <g class="snow-fall-2" fill="#BAE6FD">
+      <rect x="852" y="42" width="4" height="4" />
+      <rect x="904" y="50" width="4" height="4" />
+      <rect x="874" y="36" width="4" height="4" />
     </g>
 
     
-    <text x="20" y="34" fill="#C77B9B" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="11" font-weight="600" letter-spacing="2">
-      @BYSHIVAMRAJ
-    </text>
+    <rect x="1044" y="40" width="48" height="62" fill="#141E33" stroke="#334B73" stroke-width="2" />
+    <text x="1049" y="56" fill="#60A5FA" font-family="&#39;Consolas&#39;, monospace" font-size="9" font-weight="700">&lt;Py&gt;</text>
+    <rect x="1050" y="64" width="32" height="3" fill="#3B82F6" />
+    <rect x="1050" y="72" width="24" height="3" fill="#3B82F6" />
+
+    <rect x="1100" y="40" width="42" height="30" fill="#141E33" stroke="#334B73" stroke-width="2" />
+    <text x="1106" y="60" fill="#7DD3FC" font-family="&#39;Consolas&#39;, monospace" font-size="14" font-weight="700">404</text>
 
     
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="35,155; 112,86; 112,86; 195,48; 35,155" keyTimes="0; 0.3; 0.65; 0.85; 1" dur="6s" repeatCount="indefinite" />
+    <rect x="824" y="156" width="96" height="74" fill="#0B1320" stroke="#2D3E5E" stroke-width="3" />
+    <rect x="830" y="162" width="84" height="62" fill="#0E2E2B" />
+    <text x="836" y="184" fill="#4ADE80" font-family="&#39;Consolas&#39;, monospace" font-size="11" font-weight="700">&gt;_ SHIVAM</text>
+    <g class="code-blink">
+      <rect x="836" y="194" width="46" height="4" fill="#4ADE80" />
+      <rect x="836" y="204" width="64" height="4" fill="#2DD4BF" />
+      <rect x="836" y="214" width="34" height="4" fill="#4ADE80" />
+    </g>
+
+    
+    <rect x="1084" y="154" width="64" height="70" fill="#0B1320" stroke="#2D3E5E" stroke-width="3" />
+    <rect x="1090" y="160" width="52" height="58" fill="#0F2342" />
+    <g class="code-blink">
+      <rect x="1096" y="170" width="32" height="3" fill="#38BDF8" />
+      <rect x="1102" y="178" width="28" height="3" fill="#818CF8" />
+      <rect x="1102" y="186" width="34" height="3" fill="#38BDF8" />
+      <rect x="1096" y="194" width="24" height="3" fill="#34D399" />
+      <rect x="1102" y="202" width="30" height="3" fill="#38BDF8" />
+    </g>
+
+    
+    <rect x="824" y="232" width="324" height="60" fill="#162036" />
+    
+    <polygon points="824,256 894,250 902,276 824,284" fill="#0B1320" stroke="#2DD4BF" stroke-width="2" />
+    <rect x="832" y="260" width="10" height="4" fill="#2DD4BF" />
+    <rect x="846" y="259" width="10" height="4" fill="#4ADE80" />
+    <rect x="860" y="258" width="10" height="4" fill="#2DD4BF" />
+    <rect x="838" y="268" width="34" height="4" fill="#38BDF8" />
+
+    
+    <g class="steam-rise" fill="#CBD5E1">
+      <rect x="1106" y="218" width="4" height="10" />
+      <rect x="1116" y="214" width="4" height="12" />
+    </g>
+    <rect x="1098" y="232" width="28" height="30" fill="#CBD5E1" stroke="#0B1320" stroke-width="2" />
+    <rect x="1102" y="236" width="20" height="6" fill="#5C3A21" />
+    <rect x="1126" y="238" width="8" height="14" fill="none" stroke="#CBD5E1" stroke-width="3" />
+
+    
+    <g class="char-bob">
+      
+      <rect x="902" y="202" width="164" height="90" fill="#12151E" />
+      <rect x="914" y="190" width="140" height="24" fill="#0B0D14" />
+      
+      <rect x="926" y="182" width="116" height="22" fill="#181C28" />
+      
+      <rect x="946" y="206" width="5" height="58" fill="#2C3347" />
+      <rect x="984" y="206" width="5" height="58" fill="#2C3347" />
+      
+      <text x="924" y="242" fill="#4ADE80" font-family="&#39;Consolas&#39;, monospace" font-size="13" font-weight="700">&lt;/&gt;</text>
+      <text x="924" y="260" fill="#38BDF8" font-family="&#39;Consolas&#39;, monospace" font-size="11" font-weight="700">print(<tspan fill="#4ADE80">"Hello World"</tspan>)</text>
 
       
-      <rect x="-12" y="-16" width="84" height="32" rx="16" fill="#F8F0F3" fill-opacity="0.18" stroke="#E5B5C7" stroke-opacity="0.6" stroke-width="1">
-        <animate attributeName="width" values="18;84;84;18;18" keyTimes="0;0.3;0.65;0.85;1" dur="6s" repeatCount="indefinite" />
-        <animate attributeName="height" values="18;32;32;18;18" keyTimes="0;0.3;0.65;0.85;1" dur="6s" repeatCount="indefinite" />
-        <animate attributeName="y" values="-9;-16;-16;-9;-9" keyTimes="0;0.3;0.65;0.85;1" dur="6s" repeatCount="indefinite" />
-      </rect>
+      <rect x="964" y="176" width="32" height="20" fill="#E8A99A" />
 
       
-      <text x="6" y="4.5" fill="#F8F0F3" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="13" font-weight="600">
-        More +
-        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.32;0.63;0.8;1" dur="6s" repeatCount="indefinite" />
-      </text>
+      <rect x="932" y="106" width="76" height="74" fill="#FCD5C5" />
+      <rect x="932" y="168" width="12" height="12" fill="#181C28" />
+      <rect x="996" y="168" width="12" height="12" fill="#181C28" />
+      
+      <rect x="994" y="148" width="14" height="22" fill="#E8A99A" />
+      <rect x="936" y="150" width="8" height="4" fill="#F48FB1" />
+      <rect x="982" y="150" width="8" height="4" fill="#F48FB1" />
+      
+      <rect x="954" y="164" width="10" height="4" fill="#D98B7E" />
 
       
-      <path d="M-16,-14 L-16,4 L-11,-1 L-6,5 L-3,3 L-8,-3 L-2,-4 Z" fill="#F8F0F3" stroke="#10070C" stroke-width="1" />
+      <g class="eye-blink">
+        
+        <rect x="938" y="136" width="16" height="10" fill="#FFFFFF" />
+        <rect x="940" y="138" width="8" height="8" fill="#3B82F6" />
+        <rect x="942" y="138" width="4" height="4" fill="#0F172A" />
+        <rect x="936" y="132" width="18" height="4" fill="#0F172A" />
+        
+        <rect x="968" y="136" width="18" height="10" fill="#FFFFFF" />
+        <rect x="970" y="138" width="10" height="8" fill="#3B82F6" />
+        <rect x="972" y="138" width="4" height="4" fill="#0F172A" />
+        <rect x="966" y="132" width="22" height="4" fill="#0F172A" />
+      </g>
+
+      
+      <rect x="920" y="76" width="104" height="36" fill="#0B0F1A" />
+      <rect x="912" y="92" width="24" height="44" fill="#0B0F1A" />
+      <rect x="926" y="106" width="14" height="22" fill="#0B0F1A" />
+      <rect x="948" y="104" width="12" height="22" fill="#0B0F1A" />
+      <rect x="968" y="106" width="14" height="18" fill="#0B0F1A" />
+      <rect x="990" y="102" width="24" height="38" fill="#0B0F1A" />
+      <rect x="936" y="68" width="76" height="12" fill="#0B0F1A" />
+      
+      <rect x="944" y="84" width="18" height="8" fill="#1E294B" />
+      <rect x="974" y="88" width="22" height="8" fill="#1E294B" />
+
+      
+      
+      <rect x="944" y="64" width="60" height="10" fill="#E0F2FE" />
+      <rect x="998" y="74" width="14" height="44" fill="#BAE6FD" />
+      
+      <rect x="996" y="110" width="46" height="58" fill="#F0F9FF" />
+      <rect x="1002" y="104" width="34" height="70" fill="#F0F9FF" />
+      <rect x="992" y="118" width="54" height="42" fill="#E0F2FE" />
+      <rect x="1006" y="152" width="34" height="16" fill="#BAE6FD" />
+      <rect x="1028" y="122" width="14" height="36" fill="#93C5FD" />
     </g>
   </g>
+
+  
+  <rect x="824" y="28" width="324" height="264" rx="16" fill="none" stroke="url(#neon-cyber)" stroke-width="2" filter="url(#neon-glow)" />
 </svg>
