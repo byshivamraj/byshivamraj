@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/shivam-hero.svg" width="100%" alt="Shivam Raj — AI/ML Developer | Security Tooling | Full-Stack Builder" />
+  <img src="./assets/hero.svg" width="100%" alt="Shivam Raj — AI/ML Developer | Security Tooling | Full-Stack Builder" />
 </p>
 
 <br />
@@ -68,5 +68,5 @@ I'm **Shivam Raj**, an undergraduate **B.Tech CSE (AI & ML)** student at **Achar
 <br />
 
 <p align="center">
-  <img src="./assets/shivam-footer.svg" width="100%" alt="Shivam Raj Footer" />
+  <img src="./assets/footer.svg" width="100%" alt="Shivam Raj Footer" />
 </p>
