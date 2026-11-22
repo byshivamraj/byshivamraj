@@ -42,7 +42,7 @@
   <a href="https://www.linkedin.com/in/byshivamraj/">
     <img src="./assets/dock-linkedin.svg" height="52" alt="LinkedIn" />
   </a>
-  <a href="">
+  <a href="https://byshivamraj.github.io">
     <img src="./assets/dock-portfolio.svg" height="52" alt="Portfolio" />
   </a>
   <a href="">
