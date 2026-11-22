@@ -10,7 +10,7 @@
 
 <br />
 
-<h3 align="center">Projects</h3>
+<h3 align="center"><u><b>PROJECTS</u></h3>
 
 <!-- Paste your GitHub repository links inside href="" below -->
 <p align="center">
