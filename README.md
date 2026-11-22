@@ -64,3 +64,20 @@
 <p align="center">
   <img src="./assets/footer.svg" width="100%" alt="Shivam Raj Footer" />
 </p>
+
+<h3 align="center">Projects</h3>
+
+<p align="center">
+  <a href="YOUR_LINK_1">
+    <img src="./assets/p1.svg" width="400" alt="Latest Project" />
+  </a>
+  <a href="YOUR_LINK_2">
+    <img src="./assets/p2.svg" width="400" alt="Working Project" />
+  </a>
+  <a href="YOUR_LINK_3">
+    <img src="./assets/p3.svg" width="400" alt="Old Project 1" />
+  </a>
+  <a href="YOUR_LINK_4">
+    <img src="./assets/p4.svg" width="400" alt="Old Project 2" />
+  </a>
+</p>
