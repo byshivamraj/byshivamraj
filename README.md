@@ -45,16 +45,16 @@
   <a href="https://byshivamraj.github.io">
     <img src="./assets/dock-portfolio.svg" height="52" alt="Portfolio" />
   </a>
-  <a href="">
+  <a href="https://discord.com/users/riyalshiva">
     <img src="./assets/dock-discord.svg" height="52" alt="Discord" />
   </a>
-  <a href="">
+  <a href="https://x.com/byshivamraj">
     <img src="./assets/dock-twitter.svg" height="52" alt="Twitter" />
   </a>
-  <a href="">
+  <a href="https://leetcode.com/u/byshivamraj/">
     <img src="./assets/dock-leetcode.svg" height="52" alt="LeetCode" />
   </a>
-  <a href="mailto:">
+  <a href="mailto:itsmeshivamraj001@gmail.com">
     <img src="./assets/dock-email.svg" height="52" alt="Email" />
   </a>
 </p>
