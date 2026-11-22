@@ -1,26 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 276" width="100%" role="img" aria-label="More About Shivam Raj">
-  <defs>
-    <linearGradient id="abg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B1120" />
-      <stop offset="100%" stop-color="#151D30" />
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 328" width="100%" role="img" aria-label="More About Shivam Raj">
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15.5" font-weight="600" fill="#F8FAFC">
+    <rect x="3" y="4" width="414" height="72" rx="16" fill="#0B1120" stroke="#00FF9D" stroke-width="2.2" />
+    <text x="20" y="34"><tspan fill="#00FF9D" font-weight="700">▸ </tspan>Building web apps, experiments &amp;</text>
+    <text x="34" y="57" fill="#CBD5E1">side projects — learning by shipping.</text>
 
-  <g font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="15.5" font-weight="600">
-    <!-- Box 1 -->
-    <rect x="4" y="6" width="612" height="54" rx="14" fill="url(#abg)" stroke="#00FF9D" stroke-width="1.8" />
-    <text x="24" y="38" fill="#F1F5F9"><tspan fill="#00FF9D">▸  </tspan>Building web apps, experiments &amp; side projects — learning by shipping.</text>
+    <rect x="3" y="86" width="414" height="72" rx="16" fill="#0B1120" stroke="#00F0FF" stroke-width="2.2" />
+    <text x="20" y="116"><tspan fill="#00F0FF" font-weight="700">▸ </tspan>Leveraging AI-assisted workflows to</text>
+    <text x="34" y="139" fill="#CBD5E1">turn ideas into working code faster.</text>
 
-    <!-- Box 2 -->
-    <rect x="4" y="74" width="612" height="54" rx="14" fill="url(#abg)" stroke="#00F0FF" stroke-width="1.8" />
-    <text x="24" y="106" fill="#F1F5F9"><tspan fill="#00F0FF">▸  </tspan>Leveraging AI-assisted workflows to turn ideas into working code faster.</text>
+    <rect x="3" y="168" width="414" height="72" rx="16" fill="#0B1120" stroke="#A855F7" stroke-width="2.2" />
+    <text x="20" y="198"><tspan fill="#A855F7" font-weight="700">▸ </tspan>Stack I tinker &amp; build with:</text>
+    <text x="34" y="221" fill="#CBD5E1">Python, C, C++, HTML, and JavaScript.</text>
 
-    <!-- Box 3 -->
-    <rect x="4" y="142" width="612" height="54" rx="14" fill="url(#abg)" stroke="#A855F7" stroke-width="1.8" />
-    <text x="24" y="174" fill="#F1F5F9"><tspan fill="#A855F7">▸  </tspan>Stack I tinker &amp; build with: Python, C, C++, HTML, and JavaScript.</text>
-
-    <!-- Box 4 -->
-    <rect x="4" y="210" width="612" height="54" rx="14" fill="url(#abg)" stroke="#EC4899" stroke-width="1.8" />
-    <text x="24" y="242" fill="#F1F5F9"><tspan fill="#EC4899">▸  </tspan>Exploring new tech, clean UI designs &amp; leveling up one commit at a time.</text>
+    <rect x="3" y="250" width="414" height="72" rx="16" fill="#0B1120" stroke="#EC4899" stroke-width="2.2" />
+    <text x="20" y="280"><tspan fill="#EC4899" font-weight="700">▸ </tspan>Exploring new tech, clean UI designs &amp;</text>
+    <text x="34" y="303" fill="#CBD5E1">leveling up one commit at a time.</text>
   </g>
 </svg>
